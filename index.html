@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Александр Сапетко — Моушн-дизайнер. Motion-графика для рекламы, цифровых экранов и концертных проектов.">
+  <title>Александр Сапетко — Моушн-дизайнер</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#projects">К работам</a>
+
+  <header class="header" id="header">
+    <div class="header__bar">
+      <a href="#hero" class="header__logo">Александр Сапетко<span class="header__discipline">Моушн-дизайн</span></a>
+      <nav class="header__nav" id="nav" aria-label="Навигация">
+        <ul class="header__menu">
+          <li><a href="#projects" class="header__link">Проекты</a></li>
+          <li><a href="#about" class="header__link">Обо мне</a></li>
+          <li><a href="#contact" class="header__link">Контакты</a></li>
+        </ul>
+      </nav>
+      <button class="header__toggle" id="menu-toggle" type="button" aria-label="Меню" aria-expanded="false" aria-controls="nav">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero" id="hero">
+      <div class="hero__grid">
+        <div class="hero__copy">
+          <p class="hero__eyebrow">Портфолио</p>
+          <h1 class="hero__title">Александр<br><span>Сапетко</span></h1>
+          <div class="hero__aside">
+            <p class="hero__specialty">Реклама.<br>Digital.<br>Концертные экраны.</p>
+            <p class="hero__lead">Анимирую key visual и создаю motion-графику для небольших форматов и больших экранов.</p>
+          <div class="hero__actions">
+            <a href="#projects" class="link link--solid">Смотреть работы <span aria-hidden="true">↘</span></a>
+            <a href="https://t.me/whodd" class="link link--line" target="_blank" rel="noopener noreferrer">Написать мне ↗</a>
+            <a href="https://whodd.github.io/portfolio.github.io/resume/resume.pdf" class="link link--line" download>Скачать резюме ↓</a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <header class="projects__intro">
+        <div class="projects__intro-inner reveal">
+          <span class="label">01 / Проекты</span>
+          <h2 class="projects__heading">Избранные работы</h2>
+        </div>
+      </header>
+
+      <!-- OKKO -->
+      <article class="work reveal" id="okko">
+        <div class="work__inner">
+          <div class="work__top">
+            <div class="work__head">
+              <span class="work__index">01</span>
+              <h3 class="work__name">OKKO</h3>
+              <span class="work__category">Промо · Digital · Спорт</span>
+            </div>
+            <div class="carousel__nav" aria-label="Навигация по работам OKKO">
+              <button class="carousel__btn carousel__btn--prev" type="button" aria-label="Предыдущая работа">
+                <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3L5 8l5 5" fill="none" stroke="currentColor" stroke-width="1"/></svg>
+              </button>
+              <span class="carousel__status" aria-live="polite">
+                <span class="carousel__current">01</span>
+                <span class="carousel__sep">/</span>
+                <span class="carousel__total">08</span>
+              </span>
+              <button class="carousel__btn carousel__btn--next" type="button" aria-label="Следующая работа">
+                <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1"/></svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="carousel" data-carousel>
+            <div class="carousel__viewport">
+              <div class="carousel__track">
+                <div class="carousel__slide">
+                  <figure class="carousel__media">
+                    <video class="video" src="media/OKKO/poluraspad/1440x720_10sec.mp4" controls muted loop playsinline preload="metadata" aria-label="Полураспад"></video>
+                  </figure>
+                  <div class="carousel__info">
+                    <h4 class="carousel__title">Полураспад</h4>
+                    <p class="carousel__text">Промо для OKKO · 10 секунд.</p>
+                  </div>
+                </div>
+                <div class="carousel__slide">
+                  <figure class="carousel__media">
+                    <video class="video" src="media/OKKO/olymp/1920x1080 30 fps.mp4" controls muted loop playsinline preload="metadata" aria-label="Олимпиада 2026 · 16:9"></video>
+                  </figure>
+                  <div class="carousel__info">
+                    <h4 class="carousel__title">Олимпиада 2026 · 16:9</h4>
+                    <p class="carousel__text">Промо для OKKO. Горизонтальный формат.</p>
+                  </div>
+                </div>
+                <div class="carousel__slide">
+                  <figure class="carousel__media">
+                    <video class="video" src="media/OKKO/LC/бавария арсенал.mp4" controls muted loop playsinline preload="metadata" aria-label="Лига чемпионов · TGAds"></video>
+                  </figure>
+                  <div class="carousel__info">
+                    <h4 class="carousel__title">Лига чемпионов · TGAds</h4>
+                    <p class="carousel__text">Бавария — Арсенал. Реклама для Telegram Ads.</p>
+                  </div>
+                </div>
+                <div class="carousel__slide">
+                  <figure class="carousel__media">
+                    <video class="video" src="media/OKKO/sber/Кино вертикаль.mp4" controls muted loop playsinline preload="metadata" aria-label="Сбер · Вертикаль"></video>
+                  </figure>
+                  <div class="carousel__info">
+                    <h4 class="carousel__title">Сбер · Вертикаль</h4>
+                    <p class="carousel__text">Вертикальная версия рекламного ролика.</p>
+                  </div>
+                </div>
+                <div class="carousel__slide">
+                  <figure class="carousel__media">
+                    <video class="video" src="media/OKKO/sber/ЛЧ квадрат.mp4" controls muted loop playsinline preload="metadata" aria-label="Лига чемпионов · Квадрат"></video>
+                  </figure>
+                  <div class="carousel__info">
+                    <h4 class="carousel__title">Лига чемпионов · Квадрат</h4>
+                    <p class="carousel__text">Промо Лиги чемпионов для OKKO.</p>
+                  </div>
+                </div>
+                <div class="carousel__slide">
+                  <figure class="carousel__media">
+                    <video class="video" src="media/OKKO/likhie/ОККО_ЛИХИЕ2_08.09_1440x720.mp4" controls muted loop playsinline preload="metadata" aria-label="Лихие 2"></video>
+                  </figure>
+                  <div class="carousel__info">
+                    <h4 class="carousel__title">Лихие 2</h4>
+                    <p class="carousel__text">Промо сериала для OKKO.</p>
+                  </div>
+                </div>
+                <div class="carousel__slide">
+                  <figure class="carousel__media">
+                    <video class="video" src="media/OKKO/cyber/new.mp4" controls muted loop playsinline preload="metadata" aria-label="Cyber"></video>
+                  </figure>
+                  <div class="carousel__info">
+                    <h4 class="carousel__title">Cyber</h4>
+                    <p class="carousel__text">Рекламный ролик для OKKO.</p>
+                  </div>
+                </div>
+                <div class="carousel__slide">
+                  <figure class="carousel__media">
+                    <video class="video" src="media/OKKO/retargeting/1080x1080.mp4" controls muted loop playsinline preload="metadata" aria-label="Ретаргетинг · 1:1"></video>
+                  </figure>
+                  <div class="carousel__info">
+                    <h4 class="carousel__title">Ретаргетинг · 1:1</h4>
+                    <p class="carousel__text">Квадратный рекламный формат для OKKO.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <hr class="rule">
+      </article>
+
+      <!-- Haier -->
+      <article class="work" id="haier">
+        <div class="work__inner">
+          <div class="work__top">
+            <div class="work__head">
+              <span class="work__index">02</span>
+              <h3 class="work__name">Haier</h3>
+              <span class="work__category">Marketplace · AI Workflow</span>
+            </div>
+            <div class="carousel__nav" aria-label="Навигация по работам Haier">
+              <button class="carousel__btn carousel__btn--prev" type="button" aria-label="Предыдущая работа">
+                <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3L5 8l5 5" fill="none" stroke="currentColor" stroke-width="1"/></svg>
+              </button>
+              <span class="carousel__status" aria-live="polite">
+                <span class="carousel__current">01</span>
+                <span class="carousel__sep">/</span>
+                <span class="carousel__total">02</span>
+              </span>
+              <button class="carousel__btn carousel__btn--next" type="button" aria-label="Следующая работа">
+                <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1"/></svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="carousel" data-carousel>
+            <div class="carousel__viewport">
+              <div class="carousel__track">
+                <div class="carousel__slide">
+                  <figure class="carousel__media">
+                    <video class="video" src="media/haier/render s85 75 45 sec.mp4" controls muted loop playsinline preload="metadata" aria-label="Видеообложки для Wildberries"></video>
+                  </figure>
+                  <div class="carousel__info">
+                    <h4 class="carousel__title">Видеообложки для Wildberries</h4>
+                    <p class="carousel__text">Вертикальный формат · Haier S85.</p>
+                  </div>
+                </div>
+                <div class="carousel__slide">
+                  <figure class="carousel__media">
+                    <video class="video" src="media/haier/render 1-1 smart tv s6 65 30sec.mp4" controls muted loop playsinline preload="metadata" aria-label="Видеообложки для OZON"></video>
+                  </figure>
+                  <div class="carousel__info">
+                    <h4 class="carousel__title">Видеообложки для OZON</h4>
+                    <p class="carousel__text">Квадратный формат · Haier Smart TV S6.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <hr class="rule">
+      </article>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about__layout reveal">
+        <div class="about__primary">
+          <span class="label">02 / Обо мне</span>
+          <p class="about__statement">
+            Моушн-дизайнер с годом коммерческого опыта в рекламном агентстве ATOMIC. Работал над промоматериалами ОККО:
+            анимировал подготовленные key visual и адаптировал видео
+            для digital-кампаний и наружных экранов.
+            Создавал анимированные LED-борта для стадионов.
+          </p>
+          <div class="about__concerts">
+            <h3 class="about__concerts-heading">Концертный визуал</h3>
+            <p class="about__concerts-names">TOXIS · RNDM FEST · NewStarCamp</p>
+            <p class="about__concerts-note">Участвовал в создании визуала. Отдельные проекты вне ATOMIC.</p>
+          </div>
+        </div>
+        <div class="about__skills">
+          <span class="label">Навыки</span>
+          <ul class="skills-grid">
+            <li>After Effects</li>
+            <li>Motion Design</li>
+            <li>OOH</li>
+            <li>Digital Advertising</li>
+            <li>AI Workflow</li>
+            <li>Video Adaptation</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact__layout reveal">
+        <span class="label">03 / Контакты</span>
+        <h2 class="contact__heading">Давайте работать<br><em>вместе.</em></h2>
+        <nav class="contact__list" aria-label="Контакты">
+          <a href="https://t.me/whodd" class="contact__item" target="_blank" rel="noopener noreferrer">
+            <span class="contact__type">Telegram <span aria-hidden="true">↗</span></span>
+            <span class="contact__value">@whodd</span>
+          </a>
+          <a href="mailto:alexwhodd@gmail.com" class="contact__item">
+            <span class="contact__type">Email <span aria-hidden="true">↗</span></span>
+            <span class="contact__value">alexwhodd@gmail.com</span>
+          </a>
+        </nav>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <span>Александр Сапетко</span>
+      <a href="#hero">Наверх ↑</a>
+      <span>&copy; 2026</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
